@@ -1,0 +1,1 @@
+EmberDataMapDemo.ApplicationAdapter = DS.FixtureAdapter;
