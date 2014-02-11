@@ -1,3 +1,3 @@
 EmberDataMapDemo.Router.map(function () {
-	this.resource("map");
+    this.resource("map");
 });

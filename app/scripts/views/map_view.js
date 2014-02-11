@@ -1,5 +1,5 @@
 EmberDataMapDemo.MapView = Ember.ContainerView.extend({
-	elementId: 'map-canvas',
+    elementId: 'map-canvas',
     tagName: 'div',
 
     map: null,
