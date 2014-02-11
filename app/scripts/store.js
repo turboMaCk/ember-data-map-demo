@@ -1,1 +1,1 @@
-EmberDataMapDemo.ApplicationAdapter = DS.FixtureAdapter;
+EmberDataMapDemo.ApplicationAdapter = DS.FixtureAdapter.extend();
