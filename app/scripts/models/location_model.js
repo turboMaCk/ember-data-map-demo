@@ -1,8 +1,23 @@
 EmberDataMapDemo.Location = DS.Model.extend({
+
+    /**
+     * location latitude
+     * @type {Number}
+     */
     location_lat: DS.attr('number'),
+
+    /**
+     * location logitude
+     * @type {Number}
+     */
     location_lng: DS.attr('number')
 });
 
+/**
+ * This demo is using FixturesAapter
+ * @documentation http://emberjs.com/guides/models/the-fixture-adapter/
+ * @type {Array}
+ */
 EmberDataMapDemo.Location.FIXTURES = [
     {
         id: 1,

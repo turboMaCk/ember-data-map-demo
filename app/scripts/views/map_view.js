@@ -10,9 +10,9 @@ EmberDataMapDemo.MapView = Ember.ContainerView.extend({
     },
 
     /**
-    http://emberjs.com/api/classes/Ember.View.html#event_didInsertElement
-    Called when the element of the view has been inserted into the DOM or after the view was re-rendered.
-    Override this function to do any set up that requires an element in the document body.
+     * Called when the element of the view has been inserted into the DOM or after the view was re-rendered.
+     * Override this function to do any set up that requires an element in the document body.
+     * @documentation: http://emberjs.com/api/classes/Ember.View.html#event_didInsertElement
      */
     didInsertElement: function() {
         var model = this.get('controller.content');
@@ -25,9 +25,9 @@ EmberDataMapDemo.MapView = Ember.ContainerView.extend({
     },
 
     /**
-    Generate markers
-    @arguments: data [array of objects]
-    @needs: markerView
+     * Add markers to map
+     * @param {array of objects}
+     * @needs markerView
      */
     setMarkers: function(data) {
         var self = this,
@@ -52,7 +52,8 @@ EmberDataMapDemo.MapView = Ember.ContainerView.extend({
     },
 
     /**
-    Set map in view and bounds
+     * Set map in view
+     * define bounds
      */
     createMap: function() {
         var map = new google.maps.Map( this.$().get(0), this.mapDefaults),
