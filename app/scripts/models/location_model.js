@@ -18,5 +18,10 @@ EmberDataMapDemo.Location.FIXTURES = [
         id: 3,
         location_lat: 50.594731,
         location_lng: 14.452125
+    },
+    {
+        id: 4,
+        location_lat: 41.926979,
+        location_lng: 12.517385
     }
 ];
